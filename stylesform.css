@@ -1,0 +1,42 @@
+div#email{
+  label {
+    background-color: lime;
+  display: block;
+  font: 1rem 'Fira Sans', sans-serif;
+    }
+    input,
+    label {
+        background-color: lime;
+        margin: .4rem 0;
+          }
+          .note {
+  font-size: .8em;
+}
+div#username{
+    label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+    }
+    input,
+    label {
+    margin: .4rem 0;
+    }
+    .note {
+      font-size: .8em;
+    }
+  }
+  div#comment{
+    margin-left: 50%;
+            label,
+      textarea {
+        font-size: .8rem;
+        letter-spacing: 2px;
+      }
+      textarea {
+        padding: 10px;
+        line-height: 1.5;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        box-shadow: 1px 1px 1px #999;
+        }
+      }
